@@ -19,17 +19,10 @@ public class Aluno {
         System.out.println("Infome o nome do aluno: ");
         nome = scanner.nextLine();
 
-        System.out.println("Informe a materia: ");
-        materia = scanner.nextLine();
-
-        System.out.println("Informe o ano escolar: ");
-        anoEscolar = scanner.nextInt();
 
         System.out.println("Informe a idade do : ");
         idade = scanner.nextInt();
 
-        System.out.println("Informe a matricula do : ");
-        matricula = scanner.nextInt();
 
         System.out.println("Informe a nota do: ");
         nota = scanner.nextDouble();
