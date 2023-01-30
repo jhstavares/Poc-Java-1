@@ -7,8 +7,6 @@ public class Aluno {
 
 
         String nome;
-        String materia;
-        int anoEscolar;
         int idade;
         int matricula;
         Double nota;
