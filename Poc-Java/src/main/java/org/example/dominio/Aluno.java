@@ -11,6 +11,7 @@ public class Aluno {
         int matricula;
         Double nota;
         int Counter = 1;
+        SituacaoAluno situacaoAluno;
 
 
         Scanner scanner = new Scanner(System.in);
@@ -26,15 +27,15 @@ public class Aluno {
         nota = scanner.nextDouble();
 
 
-        if (nota > 7) {
-            System.out.println("Aprovado");
+        if (nota >= 7) {
+            System.out.println(SituacaoAluno.APROVADO);
         }
-        if (nota >= 6 || nota == 4) {
-            System.out.println("Recuperação");
+        if (nota == 6 || nota == 4 || nota == 5) {
+            System.out.println(SituacaoAluno.RECUPERACAO);
         }
 
         if (nota < 4) {
-            System.out.println("Reprovado");
+            System.out.println(SituacaoAluno.REPROVADO);
         }
 
 

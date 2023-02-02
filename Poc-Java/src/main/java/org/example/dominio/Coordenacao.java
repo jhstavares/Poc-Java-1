@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 
 public class Coordenacao {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String materia;
+
         String professor;
         int Counter = 1;
 
