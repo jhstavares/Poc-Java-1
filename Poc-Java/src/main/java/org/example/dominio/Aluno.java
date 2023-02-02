@@ -10,13 +10,22 @@ public class Aluno {
         int idade;
         int matricula;
         Double nota;
-        int Counter = 1;
+
+
+        Materia materia;
+        Professor professor = new Professor();
         SituacaoAluno situacaoAluno;
 
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Infome o nome do aluno: ");
         nome = scanner.nextLine();
+
+        System.out.println("Qual o nome do professor: ");
+        professor.nome = scanner.nextLine();
+
+        System.out.println("Informe a materia: ");
+        materia = Materia.valueOf(scanner.nextLine());
 
 
         System.out.println("Informe a idade do : ");
