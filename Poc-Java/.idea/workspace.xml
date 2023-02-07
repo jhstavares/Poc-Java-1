@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a112a7-9298-431b-a3ed-7d4b2cffbf7d" name="Changes" comment="chore: Criação da classe situação.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/Professor.java" afterDir="false" />
+    <list default="true" id="61a112a7-9298-431b-a3ed-7d4b2cffbf7d" name="Changes" comment="chore: Criação da classe Professor.Criação do método da classe Professor.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dominio/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dominio/Coordenacao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dominio/Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/dominio/Aluno.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dominio/Coordenacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +46,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Aluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.dominio.Aluno" />
@@ -92,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675346650689</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="chore: Criação da classe Professor.Criação do método da classe Professor.">
+      <created>1675359324527</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675359324528</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +112,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore: Criação da classe situação." />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: Criação da classe situação." />
+    <MESSAGE value="chore: Criação da classe Professor.&#10;chore: Criação do método da classe Professor." />
+    <MESSAGE value="chore: Criação da classe Professor.Criação do método da classe Professor." />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: Criação da classe Professor.Criação do método da classe Professor." />
   </component>
 </project>
